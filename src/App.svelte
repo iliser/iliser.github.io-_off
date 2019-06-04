@@ -51,7 +51,7 @@
 	
 	
 	function generateField(){
-		console.log("GEN");
+		arr = [];
 		for(let x = 0;x<width;++x){
 			arr[x] = [];
 			for(let y = 0;y<height;++y){
