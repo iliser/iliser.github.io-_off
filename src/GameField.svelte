@@ -74,13 +74,14 @@
 	}
 </style>
 
+
 {#each arr as row,x}
-<div class=flex>
-{#each row as v,y}
-<div class='tyle' 
-	style="background-color:{v?'red':'green'}" 
-	on:click={()=>userStep(x,y)}
-	/>
-{/each}
-</div>
+	<div class=flex>
+	{#each row as v,y}
+	<div class='tyle' 
+		style="background-color:{v?'red':'green'}" 
+		on:click={()=>userStep(x,y)}
+		/>
+	{/each}
+	</div>
 {/each}
